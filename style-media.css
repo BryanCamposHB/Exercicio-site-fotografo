@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+    .caixa, .caixa-biografia, .galeria, .galeria li, .conteudo-estudio, .contato{
+        width: auto;
+    }
+
+    h1, nav {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        margin: 20px 0;
+    }
+    
+    .texto-estudio, .imagem-estudio, .foto-perfil{
+         width: 100%;
+    }
+
+    .caixa-biografia {
+        text-align: center;
+    }
+
+    .foto-perfil {
+        float: unset;
+        box-shadow: unset;
+        margin: 0 0 20px 0;
+    }
+
+    .contato{
+        margin: 40px
+    }
+
+    .enviar{
+        font-size: 12px;
+    }
+}

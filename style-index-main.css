@@ -1,0 +1,125 @@
+.biografia{
+	padding: 3em 0;
+    background: #ffffff;
+    
+}
+
+.caixa-biografia {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.foto-perfil {
+    width: 300px;
+    float: left;
+	opacity: 0.3;
+	transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+    margin: 0 20px 20px 0;
+}
+
+.foto-perfil:hover {
+    opacity: 1;
+} 
+
+.caixa-biografia-texto {
+	width: 60%;
+    display: inline-block;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    font-weight: bold;
+}
+
+.texto-paragrafos{
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0 0 1em 2em;
+
+}
+
+.galeria {
+    position: relative;
+	width: 940px;
+    margin: 2em auto 2em auto;
+    padding: 50px 0;
+    
+}
+
+.galeria h3 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    font-weight: bold;
+}
+
+.galeria ul {
+    text-align: center;
+}
+
+.galeria li  {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+
+.galeria img {
+    width: 100%;
+    opacity: 0.3;
+	transition: 400ms;
+    margin: 0 20px 20px 0;
+}
+
+.galeria img:hover {
+    width: 95%;
+    opacity: 1;
+    text-align: center;
+}
+
+.estudio{
+	padding: 3em 0;
+	background: #888888;
+}
+
+.conteudo-estudio {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.texto-estudio {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.texto-sobre-estudio{
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 1.5em;
+    margin: 4em 1em 1em 2em;
+}
+
+.imagem-estudio {
+	width: 60%;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+
+
+
+
